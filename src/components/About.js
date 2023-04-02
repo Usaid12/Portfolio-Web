@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div
-      name="About"
+      name="About Me"
       className="md:h-screen w-full bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className="text-lg mt-4 ">
-          I am <span className="font-bold text-pink-500">Usaid Asif</span>, a
+          I am <span className="font-bold text-red-500">Usaid Asif</span>, a
           Computer Systems Engineering student at NED University of Engineering
           and Technology, with a passion for web development. I have gained
           extensive experience in front-end design and development, working with

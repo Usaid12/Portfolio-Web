@@ -75,7 +75,7 @@ const Experience = () => {
 
             <div className={`py-2 rounded-md shadow-md hover:scale-105 duration-500 ${style}`} key={id}>
                 <img src={src} alt="" className='w-20 mx-auto'  />
-                <p className='mt-2'>{title}</p>
+                <p className='mt-2 font-semibold'>{title}</p>
             </div>
             ))}
         </div>

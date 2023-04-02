@@ -10,10 +10,10 @@ const Contact = () => {
             </div>
             <div className='flex justify-center items-center'>
                 <form action="https://getform.io/f/78f3cafa-b0b2-4989-af89-282f1eb1d37a" className='flex flex-col w-full md:w-1/2 ' method='POST'>
-                    <input type="text" name='name' placeholder='John Doe' className='bg-transparent p-2 border-2 placeholder:opacity-70 placeholder:text-sm text-white focus:outline-none rounded-md' required={true} />
-                    <input type="text" name='email' placeholder='JohnDoe@gmail.com' className='bg-transparent p-2 border-2 placeholder:opacity-70 placeholder:text-base text-white focus:outline-none rounded-md my-4' required={true} />
+                    <input type="text" name='name' placeholder='eg: John Doe' className='bg-transparent p-2 border-2 placeholder:opacity-70 placeholder:text-sm text-white focus:outline-none rounded-md' required={true} />
+                    <input type="text" name='email' placeholder='eg: JohnDoe@gmail.com' className='bg-transparent p-2 border-2 placeholder:opacity-70 placeholder:text-base text-white focus:outline-none rounded-md my-4' required={true} />
                     <textarea name=""  rows="10" className='bg-transparent p-2 border-2 placeholder:opacity-70 placeholder:text-sm text-white focus:outline-none rounded-md' placeholder='Write your message here' required={true}></textarea>
-                    <button className='rounded-md bg-gradient-to-r from-green-600 to-green-900 text-white px-6 py-3 my-8 mx-auto flex items-center hover:scale-110 duration-300' >Let's talk</button>
+                    <button className=' rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-105 duration-500  px-6 py-3 my-8 mx-auto flex items-center font-bold text-black ' >Let's talk</button>
                 </form>
             </div>
 

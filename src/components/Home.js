@@ -26,14 +26,14 @@ const Home = () => {
           <div className="flex my-4 gap-8">
             <Link to="Portfolio" smooth duration={500}>
             
-            <button className="group px-4 py-2 flex items-center w-fit my-2 rounded-md bg-gradient-to-r from-green-600 to-green-900 hover:scale-105 duration-500">
+            <button className="group px-4 py-2 flex items-center w-fit my-2 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-105 duration-500 font-semibold">
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdKeyboardArrowRight size={20} />
               </span>
             </button>
             </Link>
-            <button className=" group px-4 py-2 flex items-center w-fit my-2 rounded-md bg-gradient-to-r from-green-600 to-green-900 hover:scale-105 duration-500 ">
+            <button className=" group px-4 py-2 flex items-center w-fit my-2 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-105 duration-500 font-semibold ">
                 <a href="/Resume.pdf" download={true}>Download Resume&nbsp;</a>
               
               <span className="animate-bounce duration-200"><BiDownload /></span>

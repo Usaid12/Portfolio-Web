@@ -11,12 +11,12 @@ const Home = () => {
       className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="text-white flex flex-col justify-center h-full ">
+        <div className="flex flex-col justify-center h-full ">
           
-          <h2 className="text-5xl sm:text-7xl pb-4 font-semibold opacity-80">
+          <h2 className="text-4xl sm:text-7xl pb-4 font-semibold opacity-80 text-white ">
             I'm a Front-End Web Developer
           </h2>
-          <p className="text-gray-500 max-w-md">
+          <p className="text-gray-500 max-w-md py-4">
             I am proficient in HTML, CSS, and JavaScript and have experience
             working with various front-end frameworks such as React or Angular.
             I understand the importance of creating responsive and user-friendly
@@ -28,7 +28,7 @@ const Home = () => {
             
             <button className="group px-4 py-2 flex items-center w-fit my-2 rounded-md bg-gradient-to-r from-green-600 to-green-900">
               Portfolio
-              <span className="group-hover:rotate-90 duration-200">
+              <span className="group-hover:rotate-90 duration-300">
                 <MdKeyboardArrowRight size={20} />
               </span>
             </button>
@@ -45,7 +45,7 @@ const Home = () => {
           <img
             src={myImage}
             alt="My Display"
-            className="rounded-3xl shadow-xl mx-auto w-2/3 md:w-2/3"
+            className="rounded-3xl shadow-xl mx-auto w-2/3 md:w-[70%]"
           />
         </div>
       </div>

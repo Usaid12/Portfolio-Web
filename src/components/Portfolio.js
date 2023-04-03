@@ -53,7 +53,7 @@ const Portfolio = () => {
                   <img src={img} alt=""  className="w-full h-[180px] rounded-md hover:scale-105 duration-200" />
                   <div className="flex items-center justify-center gap-6 text-black ">
                     <button className="w-[40%]  py-2 m-4  rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-105 duration-500 font-semibold"><a href={href} target="_blank" rel="noreferrer">Demo</a></button>
-                    <button className="w-[40%] py-2 px-1 m-4  rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-105 duration-500 font-semibold"><a href={code} target="_blank" rel="noreferrer">Source Code</a></button>
+                    <button className="w-[40%] py-2 px-1 m-4  rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-105 duration-500 font-semibold"><a href={code} target="_blank" rel="noreferrer">Code</a></button>
                   </div>
           </div>
         ))}
